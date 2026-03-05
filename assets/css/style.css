@@ -38,20 +38,54 @@ header img{
 
 /* MAIN */
 main{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.3em;
     background-color: white;
     box-shadow: 1px 2px 4px 2px #666;
-    text-align: center;
     border: 0.5em;
     padding: 1em;
 }
 
 h1{
     font-size: 2em;
+    font: 900;
+    margin-bottom: 1em;
+}
+
+main p{
+    margin-bottom: 0.7em;
+}
+
+main ul, ol{
+    margin-bottom: 0.7em;
+}
+
+main section{
+    background-color: gray;
 }
 /* ELEMENTI NEL MAIN - ARTICLE */
 
 /* TABELLE */
+main table{
+    text-align: center;
+    border: 1px solid;
+    margin-bottom: 0.7em;
+}
 
+main table th{
+    border: 1px solid;
+    padding: 1em;
+    background-color: #3366CC;
+}
+
+main table td{
+    border: 1px solid;
+    padding: 0.7em;
+}
+
+tr:nth-child(3),
+tr:nth-child(5){
+    background-color: #FFFFFF;}
 /* FORM */
 
 /* ELEMENTI NELL' ASIDE */
@@ -61,7 +95,8 @@ footer{
     border: 0.5em;
     padding: 2em 2em;
     text-align: center;
-    background: linear-gradient(to top, #224444, #005566);
+    color: white;
+    background: linear-gradient(30deg, #387474, #005566);
     box-shadow: 1px 2px 4px 2px #666;
 }
 

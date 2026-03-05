@@ -1,19 +1,53 @@
 /* IMPOSTAZIONI GENERALI */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body{
-    max-width: 480px;
-    margin: auto;
+    padding: 1.5em;
     background-image: url(../img/sfondo.png);
 }
 
 /* HEADER */
 header{
-    padding: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 1.5em;
+    padding: 1em;
     text-align: center;
-    background: linear-gradient(to top, #006688, #0088aa);
+    background: linear-gradient(30deg, #006688, #0088aa);
+    box-shadow: 1px 2px 4px 2px #666;
+}
+
+header p{
+    font-size: 1.7em;
+    margin-bottom: 1.5em;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+header li{
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+header img{
+    margin-bottom: 1.5em;
 }
 
 /* MAIN */
+main{
+    background-color: white;
+    box-shadow: 1px 2px 4px 2px #666;
+    text-align: center;
+    border: 0.5em;
+    padding: 1em;
+}
 
+h1{
+    font-size: 2em;
+}
 /* ELEMENTI NEL MAIN - ARTICLE */
 
 /* TABELLE */
@@ -23,5 +57,12 @@ header{
 /* ELEMENTI NELL' ASIDE */
 
 /* FOOTER */
+footer{
+    border: 0.5em;
+    padding: 2em 2em;
+    text-align: center;
+    background: linear-gradient(to top, #224444, #005566);
+    box-shadow: 1px 2px 4px 2px #666;
+}
 
 /* STYLE PAGE */

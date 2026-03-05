@@ -1,0 +1,25 @@
+/* IMPOSTAZIONI GENERALI */
+
+/* HEADER */
+
+/* MAIN */
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
+
+/* STYLE PAGE */
+
+body{
+    width: 500px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../img/sfondo.png)
+}

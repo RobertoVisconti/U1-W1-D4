@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body{
+    max-width: 480px;
+    margin: auto;
     padding: 1.5em;
     background-image: url(../img/sfondo.png);
 }
